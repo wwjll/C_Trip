@@ -13,6 +13,7 @@ void main()
     // 系统变量
     system("setx /m NVM_HOME D:/Nodejs/nvm");
     system("setx /m NVM_SYMLINK D:/Nodejs/nvm/v14.17.5");
+    system("setx /m NODE_GLOBAL D:/Nodejs/nvm/v14.17.5/node_global");
     // 用户变量
     system("setx NVM_HOME D:/Nodejs/nvm");
     system("setx NVM_SYMLINK D:/Nodejs/nvm/v14.17.5");

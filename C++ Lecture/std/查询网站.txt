@@ -1,0 +1,3 @@
+cplusplus.com
+cppreference.com
+gcc.gnu.org
