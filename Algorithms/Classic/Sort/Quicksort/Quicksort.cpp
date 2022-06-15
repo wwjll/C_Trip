@@ -3,17 +3,14 @@ using namespace std;
 
 void QuickSort(int *arr, int left, int right) {
 	if(left > right) return;
-	
 	int i = left, j = right;
-	
 	int flag = arr[left];
 	while(i != j) {
 		while(arr[j] > flag && i < j) j--;
 		while(arr[i] <= flag && i < j) i++;
-		
 		if(i<j) swap(arr[i], arr[j]);
 		
-	}	//完成while循环后，i=j
+	}
 	
 	//交换准基数与相遇值，即将中值归位
   swap(arr[left], arr[i]);
